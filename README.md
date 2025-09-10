@@ -34,12 +34,12 @@ This project uses **cleaned and preprocessed global suicide data** for analysis 
 - **Data processing:** pandas, numpy
 - **Visualization:** plotly
 
-## Deployment
-
-The app is deployed on **Streamlit Cloud**.
-
 ## Demo
+
+🔗 **Live Demo:** [View Dashboard](https://suicide-data-dashboard-44bdm9urdx5ao6csm69rq7.streamlit.app/)
 
 ![Dashboard Screenshot](./screenshot.png)
 
-🔗 **Live Demo:** [View Dashboard](https://suicide-data-dashboard-44bdm9urdx5ao6csm69rq7.streamlit.app/)
+## Deployment
+
+The app is deployed on **Streamlit Cloud**.
