@@ -1,30 +1,45 @@
-Global Suicide Trends Dashboard
+# 🌍 Global Suicide Trends Dashboard
 
-An interactive data visualization dashboard built with Streamlit
-, designed to explore global suicide trends and provide insights into socio-economic factors.
+An **interactive data visualization dashboard** built with [Streamlit](https://streamlit.io/), designed to explore **global suicide trends** and provide insights into socio-economic factors.
 
-Features
+## Features
 
-Interactive Visualizations – Explore suicide data with dynamic charts and graphs
+- **Interactive Visualizations** – dynamic charts and graphs for exploratory analysis
+- **Global Trends Analysis** – track suicide rates over time across countries and regions
+- **Cross-Country Comparisons** – compare suicide statistics between selected countries
+- **GDP vs Suicide Rates** – analyze correlations between economic indicators and suicide rates
 
-Global Trends Analysis – Track suicide rates over time across the world
+## Getting Started
 
-Cross-Country Comparisons – Compare suicide data between different countries
+### 1. Install dependencies
 
-GDP vs Suicide Rates – Analyze the relationship between economic conditions and suicide rates
+```bash
+pip install -r requirements.txt
+```
 
-Getting Started
+### 2. Run the application
 
-1. Install dependencies
-   pip install -r requirements.txt
+```bash
+streamlit run suicide_data_dashboard.py
+```
 
-2. Run the application
-   streamlit run suicide_data_dashboard.py
+## Data Source
 
-Data Source
+This project uses **cleaned and preprocessed global suicide data** for analysis and visualization.
 
-This project uses cleaned and preprocessed global suicide data for analysis and visualization.
+## Tech Stack
 
-Deployment
+- **Language:** Python
+- **Framework:** Streamlit
+- **Data processing:** pandas, numpy
+- **Visualization:** plotly
 
-The app is fully configured and ready to be deployed on Streamlit Cloud.
+## Deployment
+
+The app is deployed on **Streamlit Cloud**.
+
+## Demo
+
+![Dashboard Screenshot](./screenshot.png)
+
+🔗 **Live Demo:** [View Dashboard](https://suicide-data-dashboard-44bdm9urdx5ao6csm69rq7.streamlit.app/)
